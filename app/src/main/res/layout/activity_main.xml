@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".MainActivity"
+    android:id="@+id/parent"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/imageLayout"
+            android:layout_weight="2"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="223dp"
+                android:layout_height="196dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/poliupe" />
+
+        </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageLayout"
+                    android:orientation="horizontal"
+                    android:id="@+id/buttonLayout"
+
+                    >
+
+                        <Button
+                            android:id="@+id/scanButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="scan"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                        />
+
+                        <Button
+                            android:id="@+id/dadosButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Salas"
+                            android:layout_toLeftOf="@+id/scanButton"
+                        />
+
+
+                        <Button
+                            android:id="@+id/avisosButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Avisos"
+                            android:layout_toRightOf="@+id/scanButton"
+                        />
+
+                </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/versaoView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aulas POLI - Versão DATP"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="80dp"
+                    />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
