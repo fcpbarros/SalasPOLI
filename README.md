@@ -17,7 +17,7 @@ This app (**SalasPOLI**) complements the app **alunopoli** (located in another r
 
 The App starts with the following screen
 
-![screenshot](images/screenStart.jpeg)
+![screenshot](images/SalasPOLI.jpeg)
 
 Then, in order to proper register the information, the user of this app has to open the QR code scanner and scan the the classroom key and the professor key and such information
 will be sent to an online **Database** (Google Firebase) so all the students can easily see such information on the student version of the app (**alunospoli**).
