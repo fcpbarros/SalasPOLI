@@ -24,4 +24,11 @@ will be sent to an online **Database** (Google Firebase) so all the students can
 
 The **scanner** is opened by clicking on the scan button as shown above.
 
+It is also possible to see classroom information by clicking the **Salas** button as shown below
+
+![screenshot](images/screenSalas.jpeg)
+
+And visualize the notices (**Avisos**) by clicking **Avisos** button
+
+![screenshot](images/screenAvisos.jpeg)
 
