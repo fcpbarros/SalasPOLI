@@ -1,7 +1,6 @@
 # SalasPOLI
 
-The goal of this app is to make the coordination sector of the University of Pernambuco able to control and display information about classrooms and which professor is at a given 
-classroom at a given point in time.
+This app was developed in 2019 with the goal of making the coordination sector of the University of Pernambuco able to control and display information about classrooms and which professor is at a given classroom at a given point in time.
 
 This app (**SalasPOLI**) complements the app **alunopoli** (located in another repo) 
 
